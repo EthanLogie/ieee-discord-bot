@@ -89,7 +89,7 @@ Start in: C:\Path\To\ieee-discord-bot
 
 The bot will now launch when the computer boots up 🎉
 
-🔁 Updating the Bot
+### 🔁 Updating the Bot
 When new changes are pushed to GitHub:
 
 cd ieee-discord-bot
@@ -98,13 +98,12 @@ Then re-run the script or restart the scheduled task.
 
 ---
 
-🔐 Security & Structure
+### 🔐 Security & Structure
 The .env file stores your bot token securely (never push to GitHub)
 
 ---
 
-Project structure:
-
+### Project structure:
 ieee-discord-bot/
 ├── ieee_bot.py         # Main bot script
 ├── .env                # Token file (hidden)
@@ -114,7 +113,7 @@ ieee-discord-bot/
 
 ---
 
-🛠 Maintained By
+### 🛠 Maintained By
 IEEE Concordia IT Team
 Contact: Ethan Logie – Director IT
 GitHub: @EthanLogie
