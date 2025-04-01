@@ -43,8 +43,7 @@ cd ieee-discord-bot
 
 ---
 
-
-3. Install Dependencies
+### 3. Install Dependencies
 bash
 Copy
 Edit
@@ -52,7 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-4. Create a .env File
+### 4. Create a .env File
 In the root of the folder, create a file named .env and add:
 
 DISCORD_TOKEN=your_token_here
@@ -60,13 +59,13 @@ DISCORD_TOKEN=your_token_here
 
 ---
 
-5. Run the Bot
+### 5. Run the Bot
 To launch manually:
-
 python ieee_bot.py
 You should see:
 
 Bot is online as IEEE Carl#XXXX
+
 🪄 Run in Background on Windows (Task Scheduler)
 Use Task Scheduler to start the bot on boot:
 
