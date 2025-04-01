@@ -46,31 +46,20 @@ Make sure to check ✅ "Add Python to PATH" during install
 git clone https://github.com/EthanLogie/ieee-discord-bot.git
 cd ieee-discord-bot
 3. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4. Create a .env File
 In the root of the folder, create a file named .env and add:
 
-ini
-Copy
-Edit
 DISCORD_TOKEN=your_token_here
 ⚠️ Do not share this file or commit it to GitHub.
 
 5. Run the Bot
 To launch manually:
 
-bash
-Copy
-Edit
 python ieee_bot.py
 You should see:
 
-csharp
-Copy
-Edit
 Bot is online as IEEE Bot#XXXX
 🪄 Run in Background on Windows (Optional)
 Use Task Scheduler to start the bot on boot:
@@ -96,9 +85,6 @@ The bot will now launch when the computer boots up.
 🔁 Updating the Bot
 When new changes are pushed to GitHub:
 
-bash
-Copy
-Edit
 cd ieee-discord-bot
 git pull origin main
 Then re-run the bot or restart the scheduled task.
@@ -108,9 +94,6 @@ The .env file stores your bot token securely (never push to GitHub)
 
 Project structure:
 
-bash
-Copy
-Edit
 ieee-discord-bot/
 ├── ieee_bot.py           # Main bot script
 ├── .env                  # Token file (hidden)
