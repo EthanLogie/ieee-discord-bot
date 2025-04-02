@@ -66,7 +66,7 @@ You should see:
 
 Bot is online as IEEE Carl#XXXX
 
-🪄 Run in Background on Windows (Task Scheduler)
+### 🪄 Run in Background on Windows (Task Scheduler)
 Use Task Scheduler to start the bot on boot:
 
 Open Task Scheduler → Action > Create Task
